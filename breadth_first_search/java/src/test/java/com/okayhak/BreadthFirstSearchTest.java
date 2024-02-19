@@ -30,6 +30,6 @@ public class BreadthFirstSearchTest {
         graph.addEdge(4, 5);
 
         assertEquals("[0, 1, 2]", BreadthFirstSearch.search(graph, 0).toString());
-        assertEquals("[4, 5]", BreadthFirstSearch.search(graph, 4).toString());
+        assertEquals("[4, 3, 5]", BreadthFirstSearch.search(graph, 4).toString());
     }
 }

@@ -38,7 +38,7 @@ func TestBFSDisconnectedGraph(t *testing.T) {
 		t.Errorf("BFS traversal incorrect, got: %v, want: %v", traversal, expectedTraversal)
 	}
 
-	expectedTraversal2 := []int{4, 5}
+	expectedTraversal2 := []int{4, 3, 5}
 	traversal2 := BFS(graph, 4)
 
 	if !reflect.DeepEqual(traversal2, expectedTraversal2) {

@@ -50,7 +50,7 @@ class TestBFS(unittest.TestCase):
 
         self.assertEqual(traversal, expected_traversal)
 
-        expected_traversal2 = [4, 5]
+        expected_traversal2 = [4, 3, 5]
         traversal2 = BFS(graph, 4)
 
         self.assertEqual(traversal2, expected_traversal2)

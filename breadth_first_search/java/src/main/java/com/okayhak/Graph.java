@@ -26,5 +26,10 @@ public class Graph {
             nodes.put(u, new ArrayList<>());
         }
         nodes.get(u).add(v);
+
+        if (!nodes.containsKey(v)) {
+            nodes.put(v, new ArrayList<>());
+        }
+        nodes.get(v).add(u);
     }
 }

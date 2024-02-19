@@ -12,6 +12,7 @@ func NewGraph() *Graph {
 
 func (g *Graph) AddEdge(u, v int) {
 	g.Nodes[u] = append(g.Nodes[u], v)
+	g.Nodes[v] = append(g.Nodes[v], u)
 }
 
 func BFS(graph *Graph, start int) []int {

@@ -11,6 +11,7 @@ class Graph:
 
     def add_edge(self, u: int, v: int) -> None:
         self.nodes[u].append(v)
+        self.nodes[v].append(u)
 
 
 def BFS(graph: Graph, start: int) -> List[int]:
