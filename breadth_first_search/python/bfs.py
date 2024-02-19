@@ -14,7 +14,7 @@ class Graph:
 
 
 def BFS(graph: Graph, start: int) -> List[int]:
-    visited: Dict[int, List[bool]] = defaultdict(list)
+    visited: Dict[int, bool] = defaultdict(list)
     queue: List[int] = [start]
     visited[start] = True
     traversal: List[int] = []
