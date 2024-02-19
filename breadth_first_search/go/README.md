@@ -2,10 +2,10 @@
 
 **Case 1:**
 
-<img width="500" src="./assets/connected.png" alt="connected"/>
+<img width="500" src="./connected.png" alt="connected"/>
 
 <br/>
 
 **Case 2:**
 
-<img width="500" src="./assets/disconnected.png" alt="disconnected"/>
+<img width="500" src="./disconnected.png" alt="disconnected"/>
