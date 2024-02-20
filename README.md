@@ -8,7 +8,8 @@
    - [Golang](./breadth_first_search/go)
    - [Python](./breadth_first_search/python)
    - [Java](./breadth_first_search/java)
-3. Depth First Search (DFS) Algorithm
+3. [Depth First Search (DFS) Algorithm](./depth_first_search/description.md)
+   - [Golang](./depth_first_search/go)
 4. Merge Sort Algorithm
 5. Quicksort Algorithm
 6. Kruskal’s Algorithm
