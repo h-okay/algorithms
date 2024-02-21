@@ -10,6 +10,7 @@
    - [Java](./breadth_first_search/java)
 3. [Depth First Search (DFS) Algorithm](./depth_first_search/description.md)
    - [Golang](./depth_first_search/go)
+   - [Python](./depth_first_search/python)
 4. Merge Sort Algorithm
 5. Quicksort Algorithm
 6. Kruskal’s Algorithm
