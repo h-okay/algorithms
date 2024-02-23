@@ -1,5 +1,7 @@
 # Algorithms
 
+This repository contains a collection of common algorithms and their implementations in Golang, Python, and Java.
+
 1. [Binary Search Algorithm](./binary_search/description.md)
    - [Golang](./binary_search/go)
    - [Python](./binary_search/python)
