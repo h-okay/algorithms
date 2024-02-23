@@ -12,7 +12,10 @@
    - [Golang](./depth_first_search/go)
    - [Python](./depth_first_search/python)
    - [Java](./depth_first_search/java)
-4. Merge Sort Algorithm
+4. [Merge Sort Algorithm](./merge_sort/description.md)
+   - [Golang](./merge_sort/go)
+   - [Python](./merge_sort/python)
+   - [Java](./merge_sort/java)
 5. Quicksort Algorithm
 6. Kruskal’s Algorithm
 7. Floyd Warshall Algorithm
